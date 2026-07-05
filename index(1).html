@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Resultados de Testes</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="sidebar">
+<h2>QA Suite</h2>
+<ul>
+<li class="active">Testes</li>
+<li>Execuções</li>
+<li>Cenários</li>
+<li>Relatórios</li>
+<li>Configurações</li>
+</ul>
+</div>
+<div class="content">
+<h1>Resultados de Testes</h1>
+<div class="cards">
+<div class="card"><h3>5</h3><span>Cenários Executados</span></div>
+<div class="card success"><h3>3</h3><span>Aprovados</span></div>
+<div class="card fail"><h3>1</h3><span>Falharam</span></div>
+<div class="card warn"><h3>1</h3><span>Observações</span></div>
+<div class="card"><h3>00:25:18</h3><span>Tempo Total</span></div>
+</div>
+<table>
+<thead><tr><th>#</th><th>Cenário</th><th>Módulo</th><th>Resultado</th><th>Duração</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>CT-01 Login válido</td><td>Autenticação</td><td><span class="badge ok">Aprovado</span></td><td>00:03:45</td></tr>
+<tr><td>2</td><td>CT-02 Senha inválida</td><td>Autenticação</td><td><span class="badge no">Falhou</span></td><td>00:02:31</td></tr>
+<tr><td>3</td><td>CT-03 Recuperação de senha</td><td>Autenticação</td><td><span class="badge ok">Aprovado</span></td><td>00:04:10</td></tr>
+<tr><td>4</td><td>CT-04 Cadastro usuário</td><td>Usuários</td><td><span class="badge warn">Observação</span></td><td>00:06:15</td></tr>
+<tr><td>5</td><td>CT-05 Editar perfil</td><td>Usuários</td><td><span class="badge ok">Aprovado</span></td><td>00:08:37</td></tr>
+</tbody>
+</table>
+</div>
+</body></html>
