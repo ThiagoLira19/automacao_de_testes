@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Relatório de Teste</title>
+
+<style>
+body{
+    font-family:Arial;
+    background:#f4f6f9;
+    margin:30px;
+}
+
+.container{
+    background:white;
+    max-width:1000px;
+    margin:auto;
+    border-radius:8px;
+    box-shadow:0 2px 8px #ccc;
+    overflow:hidden;
+}
+
+header{
+    background:#0d3b66;
+    color:white;
+    padding:20px;
+}
+
+.status{
+    float:right;
+    background:#28a745;
+    padding:8px 15px;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+section{
+    padding:20px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:10px;
+}
+
+th{
+    background:#0d3b66;
+    color:white;
+}
+
+th,td{
+    border:1px solid #ddd;
+    padding:8px;
+}
+
+.imagens{
+    display:flex;
+    gap:10px;
+}
+
+.imagens img{
+    width:24%;
+    border:1px solid #ccc;
+}
+
+.logs{
+    background:#222;
+    color:#00ff66;
+    padding:15px;
+    font-family:monospace;
+    border-radius:5px;
+}
+
+.resultado{
+    background:#d4edda;
+    color:#155724;
+    padding:20px;
+    font-size:20px;
+    font-weight:bold;
+    text-align:center;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+<h1>Relatório de Execução de Teste</h1>
+<div class="status">APROVADO</div>
+</header>
+
+<section>
+
+<p><b>Teste:</b> Cadastro de Cliente</p>
+<p><b>Cenário:</b> Cadastro com dados válidos</p>
+<p><b>Data:</b> 13/07/2026 10:35</p>
+
+<h3>Etapas</h3>
+
+<table>
+<tr>
+<th>Etapa</th>
+<th>Status</th>
+</tr>
+
+<tr>
+<td>Abrir Sistema</td>
+<td>✅</td>
+</tr>
+
+<tr>
+<td>Realizar Login</td>
+<td>✅</td>
+</tr>
+
+<tr>
+<td>Preencher Formulário</td>
+<td>✅</td>
+</tr>
+
+<tr>
+<td>Salvar Cadastro</td>
+<td>✅</td>
+</tr>
+
+</table>
+
+<h3>Evidências</h3>
+
+<div class="imagens">
+<img src="prints/01.png">
+<img src="prints/02.png">
+<img src="prints/03.png">
+<img src="prints/04.png">
+</div>
+
+<h3>Logs</h3>
+
+<div class="logs">
+10:35:01 - Início do teste<br>
+10:35:05 - Login realizado<br>
+10:35:10 - Formulário preenchido<br>
+10:35:15 - Cadastro salvo<br>
+10:35:18 - Teste finalizado
+</div>
+
+<br>
+
+<div class="resultado">
+✅ TESTE APROVADO
+</div>
+
+</section>
+
+</div>
+
+</body>
+</html>
