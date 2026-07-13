@@ -1,0 +1,138 @@
+/* Fundo */
+
+body{
+    background:#eef2f7;
+    font-family:"Segoe UI",Arial,sans-serif;
+    color:#2c3e50;
+}
+
+/* Cards */
+
+.card{
+    border:none;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 3px 12px rgba(0,0,0,.08);
+}
+
+/* Cabeçalho */
+
+.card-header{
+    background:#0d6efd;
+    color:white;
+    font-weight:600;
+    border:none;
+}
+
+.card-header strong{
+    font-size:18px;
+}
+
+/* Cabeçalho principal */
+
+.bg-primary{
+    background:linear-gradient(90deg,#0b5ed7,#0d6efd)!important;
+}
+
+h1{
+    font-size:32px;
+    font-weight:700;
+}
+
+h4{
+    opacity:.9;
+}
+
+/* Status */
+
+.status-card{
+    background:white;
+    border-radius:10px;
+    padding:20px;
+    text-align:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.1);
+}
+
+.status-card small{
+    color:#6c757d;
+    font-weight:600;
+}
+
+.status-ok{
+    background:#198754;
+    color:white;
+    padding:10px;
+    border-radius:8px;
+    font-size:22px;
+    font-weight:bold;
+}
+
+/* Tabelas */
+
+.table th{
+    vertical-align:middle;
+}
+
+.table-dark th{
+    background:#243447;
+    border:none;
+}
+
+.table td{
+    vertical-align:middle;
+}
+
+/* Evidências */
+
+img{
+    transition:.3s;
+}
+
+img:hover{
+    transform:scale(1.03);
+}
+
+.border{
+    border:1px solid #d9dee3!important;
+}
+
+/* Logs */
+
+pre{
+    color:#42ff7e;
+    font-size:14px;
+    line-height:24px;
+}
+
+.bg-dark{
+    background:#1f2937!important;
+}
+
+/* Resultado */
+
+.border-success{
+    border:2px solid #198754!important;
+}
+
+.display-2{
+    font-size:70px;
+}
+
+/* Espaçamento */
+
+.card{
+    margin-bottom:20px;
+}
+
+.table-borderless th{
+    color:#0d6efd;
+}
+
+/* Rodapé */
+
+footer{
+    text-align:center;
+    color:#6c757d;
+    margin:25px;
+    font-size:14px;
+}
